@@ -1,4 +1,0 @@
-2025-12-28 18:02:13,993 - INFO - Scraping listing page 1002
-2025-12-28 18:02:17,745 - INFO - Scraping listing page 1003
-2025-12-28 18:02:21,187 - INFO - Scraping listing page 1004
-2025-12-28 18:02:22,947 - ERROR - No data scraped
