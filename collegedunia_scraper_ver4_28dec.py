@@ -19,13 +19,13 @@ import os
 # ============ CONFIGURATION ============
 
 BASE_URL = "https://collegedunia.com"
-LISTING_URL = "https://collegedunia.com/law-colleges"
+LISTING_URL = "https://collegedunia.com/veterinary-sciences-colleges"
 
 
 REQUEST_TIMEOUT = 15
 SLEEP_MIN = 1
 SLEEP_MAX = 3
-EXCEL_FILE = "law_colleges.xlsx"
+EXCEL_FILE = "veterinary-sciences.xlsx"
 
 
 HEADERS_LIST = [
@@ -52,7 +52,7 @@ logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
     handlers=[
-        logging.FileHandler("scrape_log_law.txt", mode="a", encoding="utf-8"),
+        logging.FileHandler("scrape_log_aanimation.txt", mode="a", encoding="utf-8"),
 
         logging.StreamHandler(),
     ],
